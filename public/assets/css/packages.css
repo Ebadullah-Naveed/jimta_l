@@ -1,0 +1,97 @@
+:root{
+    --fonts:'Poppins', sans-serif;
+    --base-color:#ebb700;
+    --secondary-color:#1d1d1d;
+    --nav-color:#dadada;
+}
+
+.main-body-package{
+    transition: 0.4s all;
+}
+.main-body-package:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.main-body-package{
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 10px;
+}
+.package-level{
+    background-color: var(--base-color);
+    height: 40px;
+    transition: 0.4s all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fonts);
+    color: white;
+
+}
+.package-price{
+    padding-block: 40px;
+}
+.package-price h1{
+    font-family: var(--fonts);
+    color: var(--base-color);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.package-detail-bar{
+    border-top:1px solid rgb(208, 208, 208);
+    padding-block: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.package-detail-bar span{
+    background-color: var(--base-color);
+    padding-block: 5px;
+    padding-inline: 10px;
+    border-radius: 4px;
+}
+.package-detail-buy:hover button{
+    color: white !important;
+}
+
+.package-detail-buy:hover{
+    background-color: var(--base-color);
+}
+.package-detail-buy{
+    border-top:1px solid rgb(208, 208, 208);
+    padding-block: 10px;
+    transition: 0.6s all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.package-detail-buy a{
+    background-color: var(--base-color);
+    color: white !important;
+    padding-inline: 25px;
+    padding-block: 10px;
+    border-radius: 5px;
+    transition: 0.4s all;
+}
+
+.main-body-package:hover .package-detail-buy a{
+    background-color: white;
+    color: var(--base-color);
+    border:1px solid rgb(208, 208, 208);
+    padding-inline: 25px;
+    padding-block: 10px;
+    border-radius: 5px;
+}
+.check-sign{
+    color: green;
+}
+.package-detail-bar span{
+    transition: 0.4s all;
+}
+.package-detail-bar:hover span{
+    border:1px solid rgb(208, 208, 208);
+    background-color: transparent;
+    padding-inline: 40px;
+}

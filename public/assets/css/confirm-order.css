@@ -1,0 +1,62 @@
+:root{
+    --fonts:'Poppins', sans-serif;
+    --base-color:#ebb700;
+    --secondary-color:#1d1d1d;
+    --nav-color:#dadada;
+}
+html{
+  font-family: var(--fonts);
+}
+.innerpage-header a:hover{
+  color: var(--secondary-color);
+}
+.innerpage-header a {
+    color: black;
+    font-size: 15px;
+    margin-inline: 8px;
+    text-decoration: none;
+    outline: none;
+}
+/* ======================================================================== */
+.confirm-order .confirm-order-header p{
+    color: black;
+    font-family: var(--fonts);
+    font-weight: 600;
+    padding: 5px;
+}
+.confirm-order p{
+    font-size: 14px !important;
+}
+.confirm-order .confirm-order-header{
+    background-color: rgb(202, 202, 202);
+}
+.confirm-order-main{
+    background-color: rgb(247, 247, 247);
+}
+.confirm-order-detail p{
+    color: var(--secondary-color);
+    font-family: var(--fonts);
+}
+.confirm-order-detail{
+    padding-inline: 10px;
+}
+.delivery-items-selected{
+    border: 1px solid #0094b6;
+    padding: 8px;
+    width: 200px;
+    border-radius: 4px;
+}
+.delivery-items-selected i{
+    color: #0094b6;
+}
+.order-detail-confirm-img{
+    height: 80px;
+    width: 80px;
+}
+.order-detail-confirm-img img{
+    height: 100%;
+    width: 100%;
+}
+.order-detail-confirm-price span{
+    color: var(--base-color);
+}

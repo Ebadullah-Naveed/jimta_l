@@ -1,0 +1,37 @@
+:root{
+    --fonts:'Poppins', sans-serif;
+    --base-color:#ebb700;
+    --secondary-color:#1d1d1d;
+    --nav-color:#dadada;
+}
+html{
+  font-family: var(--fonts);
+}
+.innerpage-header a:hover{
+  color: var(--secondary-color);
+}
+.innerpage-header a {
+    color: black;
+    font-size: 15px;
+    margin-inline: 8px;
+    text-decoration: none;
+    outline: none;
+}
+/* ======================================================================== */
+.delivery-option-Tabs img{
+   height: 25px;
+   width: 25px;
+   margin-right: 10px;
+}
+.delivery-option-Tabs a{
+    color: black !important;
+}
+.cradit-card-panel input{
+    border: 1px solid rgb(213, 213, 213);
+    padding-inline: 10px;
+    padding-block: 4px;
+}
+.cradit-card-panel label{
+    margin-bottom: 0px !important;
+    margin-top: 10px;
+}

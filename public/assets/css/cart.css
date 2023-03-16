@@ -1,0 +1,116 @@
+:root{
+    --fonts:'Poppins', sans-serif;
+    --base-color:#ebb700;
+    --secondary-color:#1d1d1d;
+    --nav-color:#dadada;
+}
+html{
+    font-family: var(--fonts);
+}
+.innerpage-header a:hover{
+    color: var(--secondary-color);
+}
+.innerpage-header a {
+    color: black;
+    font-size: 15px;
+    margin-inline: 8px;
+    text-decoration: none;
+    outline: none;
+}
+/* ======================================================================== */
+.cart-item-image{
+    width: 80px;
+    background-color: red;
+    border-radius: 2px;
+}
+.cart-table td input{
+    width: 60px;
+    border: 1px solid var(--nav-color);
+    border-radius: 3px;
+    font-size: 10px;
+    padding-block: 5px;
+    padding-inline:10px ;
+}
+.cart-table td{
+    padding-top: 2.5rem !important;
+    padding-bottom: 2.5rem !important;
+}
+.cart-item-table .table td, .table th {
+    padding: 0.75rem;
+    vertical-align: inherit !important;
+    border-top: 1px solid #dee2e6;
+}
+.cart-table th{
+    color: black;
+    font-weight: 400;
+}
+.container-fluid .total-amount{ 
+    color: var(--base-color);
+}
+.cart-total-session{
+    width: 100%;
+    background-color: #f9f9f9;
+    border: 1px solid #dee2e6;
+    border-radius: 3px;
+}
+.cart-shipping-total{
+    color: var(--base-color);
+}
+.Proceed-To-Checkout{
+    background-color: var(--base-color);
+    border: 1px solid var(--base-color);
+    width: 100%;
+    cursor: pointer;
+    padding-block: 7px;
+    border-radius: 4px;
+    display: flex;
+    transition: 0.4s all;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    text-decoration: none;
+}
+.Proceed-To-Checkout:hover{
+    color: white;
+    border: 1px solid white;
+    width: 100%;
+    outline: none;
+    text-decoration: none;
+    background-color: var(--base-color);
+    padding-block: 7px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart-responsive-table input{
+    width: 45px !important;
+}
+.Continue-shoping{
+    color: var(--base-color);
+    width: 100%;
+    background-color: #f9f9f9;
+    margin-top: 30px;
+    cursor: pointer;
+    padding-block: 7px;
+    border-radius: 4px;
+    display: flex;
+    transition: 0.4s all;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    text-decoration: none;
+}
+.Continue-shoping:hover{
+    color: white;
+    border: 1px solid white;
+    width: 100%;
+    outline: none;
+    text-decoration: none;
+    background-color: var(--base-color);
+    padding-block: 7px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
