@@ -9,7 +9,7 @@ use App\Models\PaymentDetail;
 use App\Models\Product;
 use App\Models\Orderdetails;
 use App\Models\Wallet;
-use App\Models\Ordertodelivery;
+use App\Models\OrderToDelivery;
 use App\Models\ServiceCenterBonus;
 use App\Models\ServiceCenter;
 use App\Models\ReferalBonus;
@@ -248,7 +248,7 @@ class HomeController extends Controller
 
                 Orderdetails::where('id',$order_id)->update(['payment_id'=>$payment_id]);
 
-                Ordertodelivery::create(['user_id'=>auth()->user()->service_center_id,'order_id'=>$order_id,'orderer_id'=>auth()->user()->id,'verification_code'=>Str::random(15),'status'=>'Pending']);
+                OrderToDelivery::create(['user_id'=>auth()->user()->service_center_id,'order_id'=>$order_id,'orderer_id'=>auth()->user()->id,'verification_code'=>Str::random(15),'status'=>'Pending']);
 
                 $s_id = ServiceCenter::where('id',auth()->user()->service_center_id)->value('user_id');
 
