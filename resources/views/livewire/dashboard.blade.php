@@ -89,7 +89,7 @@
           <div class="col-lg-4">
             <div class="card card-chart">
               <div class="card-header">
-                <h5 class="card-category">Total Orders</h5>
+                <h5 class="card-category">Total Orders Amount</h5>
                 <div class="d-flex">
                 <h3 class="card-title"><i class="fa fa-credit-card" aria-hidden="true"></i>{{$total}}</h3>
                 </div>

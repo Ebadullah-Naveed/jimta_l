@@ -174,7 +174,7 @@ label{
                 </div>
 
 
-                <form method="POST" action="https://jimta.org/login">
+                <form method="POST" action="/login">
                 @csrf
                 <div class="p-3 d-flex flex-column">
                     <label for="email">{{ __('E-Mail Address') }}</label>

@@ -3,10 +3,10 @@
         color:white !important;
     }
     .update-form input{
-        color:white !important;
+        color:black !important;
     }
     .update-form textarea{
-        color:white !important;
+        color:black !important;
     }
 </style>
 <form class="update-form">
