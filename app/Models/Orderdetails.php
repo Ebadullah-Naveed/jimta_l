@@ -14,10 +14,10 @@ class Orderdetails extends Model
     ];
 
     public function orderItem(){
-        return $this->hasMany(OrderItem::class,'id','order_id');
+        return $this->hasMany(OrderItem::class,'order_id','id');
     }
 
     public function user(){
-        return $this->hasOne(User::class,'user_id','id');
+        return $this->hasOne(User::class,'id','user_id');
     }
 }

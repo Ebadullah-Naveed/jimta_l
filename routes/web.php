@@ -205,3 +205,4 @@ Route::get('/thecnicalsupport', [App\Http\Controllers\howtomem::class, 'thecnica
 Route::get('/returnexchange', [App\Http\Controllers\howtomem::class, 'returnexchange'])->name('returnexchange');
 Route::get('/privacy', [App\Http\Controllers\howtomem::class, 'privacy'])->name('privacy');
 Route::get('/paymentmethod', [App\Http\Controllers\howtomem::class, 'paymentmethod'])->name('paymentmethod');
+Route::get('invoice/{id}',[App\Http\Controllers\HomeController::class,'invoice'])->name('downloadinvoice');

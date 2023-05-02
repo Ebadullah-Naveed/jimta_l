@@ -19,7 +19,7 @@ use App\Models\InvestmentLog;
 use Illuminate\Support\Str;
 use App\Models\{InvesterInformation,Notification,PvWallet};
 use Carbon\Carbon;
-
+use PDF;
 
 class HomeController extends Controller
 {
@@ -498,4 +498,15 @@ class HomeController extends Controller
     }
 
 
+    public function invoice($id){
+        $order = Orderdetails::where('id',$id)->with('user','orderItem')->first();
+        view()->share('order',$order);
+        $pdf = PDF::loadView('invoice');
+        return $pdf->download('invoice.pdf');
+    }
+
+    public function invoiceShow($id){
+        $order = Orderdetails::where('id',$id)->with('user','orderItem')->first();
+        return view('invoice', compact('order'));
+    }
 }

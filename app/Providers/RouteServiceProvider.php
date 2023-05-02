@@ -48,12 +48,12 @@ class RouteServiceProvider extends ServiceProvider
     protected function configureRateLimiting()
     {
         RateLimiter::for('api', function (Request $request) {
-            return Limit::perMinute(60)->by($request->user()?->id ?: $request->ip());
+            return Limit::perMinute(940)->by(optional($request->user())->id ?: $request->ip());
         });
     }
 
     protected function forceHttps()
     {
-        resolve(\Illuminate\Routing\UrlGenerator::class)->forceScheme('https');
+        // resolve(\Illuminate\Routing\UrlGenerator::class)->forceScheme('https');
     }
 }
