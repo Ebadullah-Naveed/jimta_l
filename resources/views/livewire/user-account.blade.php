@@ -103,7 +103,7 @@
                                         {{App\Models\OrderToDelivery::where('order_id',$o->id)->value('verification_code')}}
                                     </td>
                                     <td>
-                                        <a href="{{ route('downloadinvoice', $o->id) }}">Invoice</a>
+                                        <a href="{{ route('downloadinvoice', $o->id) }}"><i class="fa fa-download" style="font-size:24px;color:#d6ac2d"></i></a>
                                     </td>
                                   </tr>
                                 @endforeach
