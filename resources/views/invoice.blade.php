@@ -15,18 +15,6 @@ a {
   text-decoration: underline;
 }
 
-body {
-  position: relative;
-  width: 21cm;  
-  height: 29.7cm; 
-  margin: 0 auto; 
-  color: #001028;
-  background: #FFFFFF; 
-  font-family: Arial, sans-serif; 
-  font-size: 12px; 
-  font-family: Arial;
-}
-
 header {
   padding: 10px 0;
   margin-bottom: 30px;
