@@ -138,7 +138,7 @@ footer {
       <h1>INVOICE #{{$order->id}}</h1>
       <div id="company" class="clearfix">
         <div>Company Name</div>
-        <div>Jimta</div>
+        <div>Jimta Group International</div>
       </div>
       <div id="project">
         <div><span>CLIENT</span> {{$order->user->first_name}} {{$order->user->last_name}}</div>
