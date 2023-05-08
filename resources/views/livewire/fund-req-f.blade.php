@@ -43,7 +43,7 @@
             <br><br>
             For transfer in binance USDT TRC20
             <br><br>
-            Wallet: <a style="color:#ebb700">(TWn77vKUCaSGhqnbNWUgsf9BFnNjFmg8XT)</a>
+            Wallet: <a style="color:#ebb700">(TMM78EP7vFK1ED8DnjHEDzPQVrRmgwY7Bx)</a>
             
         </p>
         <div style="border:1px solid black;border-radius:5px" class="col-lg-4 col-12 p-0 d-flex align-items-center justify-content-center flex-column py-3 px-5">
